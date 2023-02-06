@@ -1,0 +1,47 @@
+.Homepage::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .Homepage {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  }
+  .home-cont1 {
+    position: fixed;
+    width: 1280px;
+    top: 0px;
+    bottom: 0px;
+  }
+  .home-cont1-text {
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Homepage_Button {
+    border: none !important;
+    border-radius: 25px;
+    padding: 20px 40px !important;
+    background-color: white;
+    font-size: 30px;
+    font-weight: 800 !important;
+    margin-right: 20px !important;
+    cursor: pointer;
+    color: var(--food) !important;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  }
+  
+  .homeBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .homeOptions {
+    display: flex;
+    margin-left: 20px;
+  }
